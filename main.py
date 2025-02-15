@@ -1,9 +1,27 @@
+import os
+os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "1"  # Suppresses the message
 import pygame
-
-
-pygame.init
 from constants import *
 
-print("Starting asteroids!")
-print(f"Screen width: {SCREEN_WIDTH}")
-print(f"Screen height: {SCREEN_HEIGHT}")
+
+def main():
+    print("Starting asteroids!")
+    print(f"Screen width: {SCREEN_WIDTH}")
+    print(f"Screen height: {SCREEN_HEIGHT}")
+
+    
+    screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+    
+    while True:
+        pygame.init()
+        pygame.Surface.fill(screen, "black")
+        pygame.display.flip()
+
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                return
+
+if __name__ == "__main__":
+    main()
+
+
