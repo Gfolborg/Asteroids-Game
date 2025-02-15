@@ -5,23 +5,25 @@ from constants import *
 
 
 def main():
-    print("Starting asteroids!")
-    print(f"Screen width: {SCREEN_WIDTH}")
-    print(f"Screen height: {SCREEN_HEIGHT}")
-
-    
+    pygame.init() # initializes pygame
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+    dt = 0
+    fps = pygame.time.Clock()
     
     while True:
-        pygame.init()
-        pygame.Surface.fill(screen, "black")
-        pygame.display.flip()
+        #This is what starts the window/screen and gives it is size and color (pygame.Surface.fill(screen, "black") did thing
+        screen.fill("black") 
 
-        for event in pygame.event.get():
+        pygame.display.flip() # refreshes the screen ## Call this last ##
+
+        dt = fps.tick(60) / 1000 # limit the framerate to 60 fps
+
+
+        for event in pygame.event.get():  # allows you to click "X" to close game window
             if event.type == pygame.QUIT:
                 return
+            
 
-if __name__ == "__main__":
+
+if __name__ == "__main__": #executes code only from main.py
     main()
-
-
