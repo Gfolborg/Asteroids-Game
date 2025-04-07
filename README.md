@@ -24,7 +24,7 @@ The project was part of a **guided course** on [Boot.dev](https://www.boot.dev),
 - Using GitHub to publish, track, and document my code
 
 ---
-### 🚧 In Progress:
+### In Progress:
 This project is still under development — I plan to add more features like:
 - Score tracking
 - Multiple lives
