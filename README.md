@@ -4,4 +4,5 @@ Technologies used:
 <br>
 <br>
 Pygame <br>
-Python virtual environment (venv)
+Python virtual environment (venv) <br>
+Visual Studio Code (VSCode)
