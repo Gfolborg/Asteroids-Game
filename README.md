@@ -1,22 +1,38 @@
 # Asteroids Game (Python + Pygame)
 
-This is a mini-project where I built a simple version of the classic *Asteroids* game using Python and the Pygame library.
+This is a simple version of the classic *Asteroids* game, built using **Python** and **Pygame**.
 
-The project was completed as part of a course on [Boot.dev](https://boot.dev), where I followed step-by-step instructions and added my own touches along the way. It helped me understand how to structure a Python game from the ground up using real development tools.
-
-### Technologies Used:
-- **Python**
-- **Pygame**
-- **Python Virtual Environment (venv)**
-- **Visual Studio Code (VS Code)**
-
-### What I Learned:
-- Using virtual environments for Python projects
-- Setting up a game loop and handling user input
-- Working with sprites, events, and collisions
-- Managing project files with Git and GitHub
-- Understanding how larger projects are broken into smaller, testable pieces
+The project was part of a **guided course** on [Boot.dev](https://www.boot.dev), where I was given high-level instructions and goals — but I had to write all the game logic and code myself. It challenged me to think critically about object movement, collision detection, and game flow.
 
 ---
 
-While this was a guided project, I wrote all the code myself and used the experience to deepen my understanding of Python, Pygame, and project structure. I'm continuing to build more independent projects as I grow.
+### Technologies Used:
+- **Python**
+- **Pygame** (game loop, events, rendering)
+- **Python Virtual Environment (venv)**
+- **Visual Studio Code (VS Code)**
+- **Git & GitHub** for version control
+
+---
+
+### What I Learned:
+- Setting up and managing a virtual environment
+- Creating a game loop and handling player input
+- Using object-oriented programming to manage ships, asteroids, and bullets
+- Detecting collisions and updating game state in real-time
+- Debugging logic and rendering issues with print statements and iteration
+- Using GitHub to publish, track, and document my code
+
+---
+### 🚧 In Progress:
+This project is still under development — I plan to add more features like:
+- Score tracking
+- Multiple lives
+- Game over and restart screens
+- Sound effects and background music
+- Difficulty scaling
+  
+---
+This project gave me real experience writing and debugging logic-heavy code. It taught me how to break down complex tasks into smaller components and build a functional, playable game from scratch — even with limited guidance.
+
+*Run it locally to try it out — destroy asteroids and avoid getting hit
